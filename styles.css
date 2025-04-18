@@ -52,22 +52,24 @@ p {
 
 #title {
     text-align: center;
+    color: rgb(18, 106, 18);
 }
 
 label {
     display: block;
     margin-bottom: 1em;
+    color: #ff4d00;
 }
 
 input,
-textarea,
-#form button {
+textarea{
     display: block;
     width: 100%;
     margin-bottom: 1em;
     border: 1px solid #666;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 .card{
     padding: 20px;

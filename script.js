@@ -46,9 +46,12 @@ function createCard(n, l, img, d) {
     }
     const cDBtn = document.createElement("button");
     cDBtn.innerText = "Remove";
+    cDBtn.className = "btn btn-success"
     cDBtn.addEventListener("click", removeDestinatiion);
     cB.appendChild(cDBtn);
     card.appendChild(cB);
+    card.style.background= "rgba(109, 235, 208, 0.7)";
+    card.style.borderRadius= "15px";
     return card;
 }
 function removeDestinatiion(e) {

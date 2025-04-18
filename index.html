@@ -7,12 +7,11 @@
     <title>Vacation Destinations WishList</title>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-
-    <!-- Our CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body style="background-color: bisque">
     <header>
         <h1>Vacation destination Wish List</h1>
         <p>Found exciting place to visit on your next vacation?Use the form below to add them to your list</p>
@@ -25,18 +24,16 @@
             <input type="text" id="loc" placeholder="Where is this destination located" required>
             <label for="img">Photo</label>
             <input type="text" id="img" placeholder="Provide a URL for a photo">
-            <label for="des">Destijnation Discription</label>
+            <label for="des">Destination Discription</label>
             <textarea type="text" id="des" placeholder="Dscribe the destination"></textarea>
-            <button type="submit">Add To Wish List</button>
+            <button type="submit" class="btn btn-dark btn-lg">Add To Wish List</button>
         </form>
         <article>
             <h2 id="title">Enter the Destination Details</h2>
             <div id="destination-container">
-                <!-- Genetrated by script.js` -->
             </div>
         </article>
     </main>
-    <!-- Our JavaScript -->
     <script src="script.js"></script>
 </body>
 
